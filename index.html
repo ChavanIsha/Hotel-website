@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isha's Hotel Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <h1 class="logo">Isha's Hotel Website</h1>
+            <ul class="nav-links">
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-text">
+            <h2>Welcome to Isha's Hotel Website</h2>
+            <p>Your luxury destination awaits</p>
+            <a href="#rooms" class="btn">Explore Rooms</a>
+        </div>
+    </header>
+
+    <section id="rooms" class="section rooms">
+        <h2>Our Rooms</h2>
+        <div class="room-list">
+            <div class="room">
+                <img src="images/room1.jpg" alt="Room 1">
+                <h3>Deluxe Room</h3>
+                <p>₹4999 per night</p>
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="room">
+                <img src="images/room2.jpg" alt="Room 2">
+                <h3>Suite</h3>
+                <p>₹7999 per night</p>
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="room">
+                <img src="images/room3.jpg" alt="Room 3">
+                <h3>Luxury Villa</h3>
+                <p>₹12999 per night</p>
+                <button class="btn">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="images/gallery1.jpg" alt="Gallery 1" class="gallery-img">
+            <img src="images/gallery2.jpg" alt="Gallery 2" class="gallery-img">
+            <img src="images/gallery3.jpg" alt="Gallery 3" class="gallery-img">
+        </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+        <h2>What Guests Say</h2>
+        <div class="testimonial-slider">
+            <p class="testimonial active">"The best hotel experience I've ever had!" - Raj</p>
+            <p class="testimonial">"Amazing rooms and excellent service!" - Priya</p>
+            <p class="testimonial">"Highly recommend for a relaxing stay." - Aman</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button class="btn" type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; Isha's Hotel Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
